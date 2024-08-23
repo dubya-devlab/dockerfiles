@@ -53,10 +53,10 @@ services:
       - ./docker/mysql/data:/var/lib/mysql:rw,delegated
 
       # remove comments for next 4 lines if you want auto sql backups
-      #- ./docker/mysql/bak:/backups:rw
-      #- ./config/mysql/backup-script:/etc/cron.daily/daily:ro
-      #- ./config/mysql/backup-script:/etc/cron.weekly/weekly:ro
-      #- ./config/mysql/backup-script:/etc/cron.monthly/monthly:ro
+      - ./docker/mysql/bak:/backups:rw
+      - ./config/mysql/backup-script:/etc/cron.daily/daily:ro
+      - ./config/mysql/backup-script:/etc/cron.weekly/weekly:ro
+      - ./config/mysql/backup-script:/etc/cron.monthly/monthly:ro
     networks:
       - invoiceninja
     extra_hosts:

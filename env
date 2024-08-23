@@ -1,6 +1,6 @@
 # IN application vars
 APP_URL=http://in.localhost:8003
-APP_KEY=<insert your generated key in here>
+APP_KEY=base64:KoKbIKsJ43WAGD83XALn0/AwHZiuxRBFKZ6uFIDJLwI=
 APP_DEBUG=true
 REQUIRE_HTTPS=false
 PHANTOMJS_PDF_GENERATION=false
@@ -13,36 +13,36 @@ QUEUE_CONNECTION=database
 # DB connection
 DB_HOST=db
 DB_PORT=3306
-DB_DATABASE=ninja
-DB_USERNAME=ninja
-DB_PASSWORD=ninja
+DB_DATABASE=invoiceninja
+DB_USERNAME=dawaunw
+DB_PASSWORD='h@rdw0rkGOD1st'
 
 # Create initial user
 # Default to these values if empty
 # IN_USER_EMAIL=admin@example.com
 # IN_PASSWORD=changeme!
-IN_USER_EMAIL=
-IN_PASSWORD=
+IN_USER_EMAIL=connect@wallshomepros.com
+IN_PASSWORD=h@rdw0rkGOD1st
 
 # Mail options
 MAIL_MAILER=log
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS='user@example.com'
-MAIL_FROM_NAME='Self Hosted User'
+MAIL_HOST='smtp0001.neo.space'
+MAIL_PORT=465
+MAIL_USERNAME='connect@wallshomepros.com'
+MAIL_PASSWORD='h@rdw0rkGOD1st'
+MAIL_ENCRYPTION='SSL/TLS' 
+MAIL_FROM_ADDRESS='connect@wallshomepros.com'
+MAIL_FROM_NAME='DaWaun W'
 
 # MySQL
-MYSQL_ROOT_PASSWORD=ninjaAdm1nPassword
-MYSQL_USER=ninja
-MYSQL_PASSWORD=ninja
-MYSQL_DATABASE=ninja
+MYSQL_ROOT_PASSWORD=Adm1nPassword
+MYSQL_USER=dawaunw
+MYSQL_PASSWORD='h@rdw0rkGOD1st'
+MYSQL_DATABASE=invoiceninja
 
 # GoCardless/Nordigen API key for banking integration
-NORDIGEN_SECRET_ID=
-NORDIGEN_SECRET_KEY=
+#NORDIGEN_SECRET_ID=
+#NORDIGEN_SECRET_KEY=
 
 # V4 env vars
 # DB_STRICT=false
